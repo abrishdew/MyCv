@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abraham Tesfaye</title>
@@ -10,6 +11,7 @@
     <hr>
     <a href="index.html">Home</a> 
     <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
     <hr>
 <table cellspacing = "20">
     <tr>
@@ -20,34 +22,88 @@
     </tr>
 </table>
     
-    <h3>Contact us</h3>
-
-    <form action="mailto:dewtesfaye76@yahoo.com" enctype="utf-8" method="POST">
-    <label for="fName">First Name :</label>    <input type="text" name="fName" id= "fName"><br>
-    <label for="sName">Sur Name :</label>    <input type="text" name="sName"  id="sName"><br>
-    <label for="email">Email :</label>    <input type="email" name= "email" id="email"><br>
-Where are you from :
-<select name="country" id="">
-<option value="af">Africa</option>
-<option value="fe">Far east</option>
-<option value="eu">Europe</option>
-</select><br>
-
-    What Do you want to say?
-    <textarea name="" id="" cols="30" rows="10"></textarea><br>
-    <input type="submit" value="Submit"> 
-
-    </form>
-
-
-
-
     
-    <hr>
+           
+    <table cellspacing = "60">
+        <tr>
+            <td><table> 
+                <form action="mailto:dewtesfaye76@yahoo.com" enctype="utf-8" method="POST">
+                
+                        <tr>
+                            <td><label for="fName">First Name:</label></td>
+                            <td><input pattern="[a-zA-Z]{4, 10}" type="text" name="fName" id= "fName"></td>
+                        </tr>
+    
+    
+                        <tr>
+                            <td><label for="sName">Sur Name:</label> </td>
+                            <td><input pattern="[a-zA-Z]{4, 10}" type="text" name="sName"  id="sName"required></td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="email">Email:</label></td>
+                            <td><input type="email" name= "email" id="email" required></td>
+                        </tr>
+    
+                        <tr>
+                            <td><label for="p_num">Phone Number:</label></td>
+                            <td><input type="number" name = "p_number" id = "p_num" required >  </td>
+                            
+                            
+                        </tr>
+    
+                        <tr>
+                            <td><label for="password">Password:</label></td>
+                            <td><input pattern="^[a-zA-Z]\w{3,14}$" type="password" name = "password" id= "password" ></td>
+                            
+                        
+    
+                        </tr>
+                         
+    
+    
+                        <tr>
+                            <td>Where are you from :</td>
+                            <td><select name="country" id="">
+                                <option value="af">Africa</option>
+                                <option value="fe">Far east</option>
+                                <option value="eu">Europe</option>
+                                </select></td>
+    
+                        </tr>
+    
+                        <tr>
+                            <td>What Do you want to say?</td>
+                            
+                         </tr>
+    
+    
+                         <tr>
+                             <td><textarea name="" id="" cols="30" rows="10"></textarea></td></tr>
+                        </tr>
+    
+                        <tr>
+    
+                            <td><input type="submit" value="Submit"></td>
+                        </tr>
+                        
+                       
+    
+                    
+    
+    
+                    </form>
+               </table></td>
+            <td><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
+        </tr>
+    </table>
+    
+    
+    <h3>Contact us</h3>
+    <a href="https://www.facebook.com/" target ="blank">Facebook </a> |
+    <a href="https://www.instagram.com/" target="blank">Instagram</a> |
+    <a href="https://www.twitter.com/" target = "blank">Twitter</a> |
 
 </body>
-<a href="http" target ="blank">Facebook </a>
-<a href="" target="blank">Instagram</a>
-<a href="" target = "blank">Twitter</a>
 
 </html>
