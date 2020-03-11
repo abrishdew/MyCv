@@ -34,13 +34,13 @@
                 
                         <tr>
                             <td><label for="fName">First Name:</label></td>
-                            <td><input pattern="[a-zA-Z[4-10]" type="text" name="fName" id= "fName"  placeholder="First Name" ></td>
+                            <td><input  type="text" name="fName" id= "fName" pattern="[a-zA-Z]{4,10}"  placeholder="First Name" ></td>
                         </tr>
     
     
                         <tr>
                             <td><label for="sName">Sur Name:</label> </td>
-                            <td><input pattern="[a-zA-Z][4-10]" type="text" name="sName"  id="sName"required  placeholder="Sir Name" ></td>
+                        <td><input type="text" name="sName"  id="sName" pattern="[a-zA-Z]{4,10}" required  placeholder="Sir Name" ></td>
                         </tr>
     
                         <tr>
@@ -50,7 +50,7 @@
     
                         <tr>
                             <td><label for="p_num">Phone Number:</label></td>
-                            <td><input type="int" name = "p_number" id = "p_num" required placeholder="0912345678" >  </td>
+                            <td><input type="int" name = "p_number" id = "p_num" pattern="[0-9]{10}" required placeholder="0912345678" >  </td>
                             
                             
                         </tr>
@@ -59,8 +59,6 @@
                             <td><label for="password">Password:</label></td>
                             <td><input pattern="^[a-zA-Z]\w{3,14}$" type="password" name = "password" id= "password" ></td>
                             
-                        
-    
                         </tr>
                          
                         <tr>
