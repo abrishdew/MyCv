@@ -1,58 +1,170 @@
-.Eth{
-    margin: 10px;
-    
+body{
+    background-color: rgba(184, 192, 184, 0.377);
 }
+h1{
+    text-align: center;
+}
+.Country{
+   padding-top: 15px;
+   padding-bottom: 15px; 
+   width:30%;
+   float: left;
+   margin-left: 1.66%;
+   margin-right:1.66%;
+}    
 #g{
-    width: 30px;
-    height: 10px;
+    
+    width: 400px;
+    height: 75px;
     background-color: green;
     
 }
 #y{
-    width: 30px;
-    height: 10px;
+    width: 400px;
+    height: 75px;
     background-color: yellow;
 }
 #r{
-    width: 30px;
-    height: 10px;
+    width: 400px;
+    height: 75px;
     background-color:red;
 }
 
-.Net{
-    margin: 10px;
-    
-}
+
 #rf{
-    width: 30px;
-    height: 10px;
+    width: 400px;
+    height: 75px;
     background-color:red;
 }
 #w{
-    width: 30px;
-    height: 10px;
+    width:400px;
+    height: 75px;
     background-color:white;
 }
 #b{
-    width: 30px;
-    height: 10px;
+    width:400px;
+    height: 75px;
     background-color:blue;
 }
-.Egy{
-    margin: 10px;
-}
-#re{
-    width: 30px;
-    height: 10px;
+
+#ry{
+    width:400px;
+    height: 75px;
     background-color:red;
 }
-#we{
-    width: 30px;
-    height: 10px;
+#wy{
+    width:400px;
+    height: 75px;
     background-color:white;
 }
 #bl{
-    width: 30px;
-    height: 10px;
+    width:400px;
+    height: 75px;
     background-color: black;
 }
+
+#wr{
+    width:400px;
+    height: 75px;
+    background-color:white;
+}
+#br{
+    width:400px;
+    height: 75px;
+    background-color:blue;
+}
+#rr{
+    width:400px;
+    height: 75px;
+    background-color:red;
+}
+
+#bg{
+    width:400px;
+    height: 75px;
+    background-color: black;
+}
+#rg{
+    width:400px;
+    height: 75px;
+    background-color:red;
+}
+#yg{
+    width:400px;
+    height: 75px;
+    background-color: yellow;
+}
+
+#yu{
+    width:400px;
+    height: 112.5px;
+    background-color: yellow;
+}
+#lb{
+    width:400px;
+    height: 112.5px;
+    background-color: #55aac7;
+}
+
+#wp{
+    width:400px;
+    height: 112.5px;
+    background-color:white;
+}
+#rp{
+    width:400px;
+    height: 112.5px;
+    background-color:red;
+}
+
+#ra{
+    width:400px;
+    height: 75px;
+    background-color:red;
+}
+#wa{
+    width:400px;
+    height: 75px;
+    background-color:white;
+}
+#ra{
+    width:400px;
+    height: 75px;
+    background-color:red;
+}
+
+#yc{
+    width:400px;
+    height: 105px;
+    background-color: yellow;
+}
+#bc{
+    width:400px;
+    height: 60px;
+    background-color:blue;
+}
+#rc{
+    width:400px;
+    height: 60px;
+    background-color:red;
+}
+
+
+#rh{
+    width:400px;
+    height: 75px;
+    background-color:red;
+}
+#wh{
+    width:400px;
+    height: 75px;
+    background-color:white;
+}
+#gh{
+    width:400px;
+    height: 75px;
+    background-color: green;
+    
+}
+
+
