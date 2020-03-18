@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: greenyellow;
+    position: fixed;
+    width: 100%;
+}
+
+nav>ul>li{
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.ques{
+    display: inline-block;
+    padding: 5px;
+    float: right;
+    margin-top: auto;
+}

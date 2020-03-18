@@ -1,0 +1,26 @@
+h1{
+    font: larger;
+    text-align: Center;
+    margin-top: 50px;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+table{
+    margin: 5px auto;
+    border-spacing: 0;
+}
+.Vertical{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+
+}
+.Horizontal{
+    border-top: 2px solid black ;
+    border-bottom:2px solid black;
+
+}
+td{
+    text-align: center;
+}
