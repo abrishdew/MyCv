@@ -9,7 +9,7 @@ body{
 }
 header{
     background-color: greenyellow;
-    position: absolute;
+    position: relative;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -49,6 +49,7 @@ div>ul>li>a{
 #clear{
     clear: left;
     padding: 10px 30px;
+    
 }
 #pp{
     padding-left: 30px;
@@ -62,7 +63,6 @@ div>ul>li>a{
     display: flex;
     padding: 25px;
     margin: 100px 100px;
-    border-bottom: 2px solid black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #map{
@@ -77,6 +77,11 @@ div>ul>li>a{
     padding-top: 10px;
  
 }
+input[type = "submit"]{
+    width: 100px;
+    height: 50px;
+}
+
 #Chap{
     margin-top:45px ;
     margin-left: 20px;
@@ -88,5 +93,27 @@ div>ul>li>a{
 #copar{
     margin-top: 50px;
     padding-bottom: 250px;
+    border-bottom: solid 1px black;
+}
+#cleared{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 25px;
+    margin-left: -27px;
+}
+#links{
+    padding-bottom: 2px;
+    border-bottom: solid 1px black;
+}
+#cred{
+    padding-bottom: 2px;
+    border-bottom: solid 1px black;
+
+}
+#coparH{
+    margin-top: 50px;
+    padding-bottom: 205px;
     border-bottom: solid 1px black;
 }
