@@ -102,6 +102,13 @@ input[type = "submit"]{
 h3{
     font-size: 25px;
     margin-left: -27px;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: lighter;
+    
 }
 #links{
     padding-bottom: 2px;
@@ -116,4 +123,31 @@ h3{
     margin-top: 50px;
     padding-bottom: 205px;
     border-bottom: solid 1px black;
+}
+#list{
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+}
+#inside{
+    display: block;
+    margin-left: 4%;
+}
+#insides{
+    display: block;
+    margin-left: 8%;
+}
+.work{
+    padding: 10px 2px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#work{
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+
+}
+.skill{
+    padding: 15px;
 }
