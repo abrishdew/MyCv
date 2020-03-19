@@ -1,0 +1,29 @@
+body{
+    background-color: khaki;
+    margin: 5px 20px;
+}
+header{
+    background-color: lightblue;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+section
+{  margin-top: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+article{
+    line-height: 25px;
+    text-align: justify;
+    font-size: 18px;
+}
+header>p{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.date{
+    text-transform: uppercase;
+    font-style: oblique;
+    font-size: 20px;
+}
