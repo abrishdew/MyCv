@@ -7,113 +7,107 @@
     <title>Abraham Tesfaye</title>
     <link rel="shortcut icon" type="image/ico"
       href="./Asset/image/Breaking Bad.ico" >
-    <link rel="stylesheet" href="./Asset/css/style.css">
+    <link rel="stylesheet" href="./My Works/Assets/css/mywork.css">
 </head>
-<style>
-    body{
-        background-image: url();
-        background-repeat: no-repeat;
-
-    }
-</style>
-
 <body>
     <!-- Commence -->
-    <hr>
-    <a href="index.html">Home</a> 
-    <a href="gallery.html">Gallery</a> 
-    <a href="contact.html">Contact</a> 
-    <a href="blog.html">Blog</a>
     
-    <hr>
+    <header>
+        <nav>
+    
+    <ul>
+        <li><a href="../index.html" target="blank" >Home</a></li>
+        <li><a href="../gallery.html" target="blank" >Gallery</a></li>
+        <li><a href="./My Works/myworks.html" target="blank" >My works</a></li>
+        <li><a href="../contact.html" target="blank" >Contact</a></li>
+        <li><a href="../blog.html" target="blank" >Blog</a></li>
+         
+    
+    </ul>
+    </nav>
+    
+    
+    </header>
 
+    
+        
         <img id="Chap" src="./Asset/image/Chaplin.jpg" alt="Pro pic">
-        <h1>Abraham Tesfaye</h1>
+        <div id="copar">
+        <h1>Abraham Tesfaye</h1> <br> <br>
             <h3>Student at AAit</h3>
             <p>Do you have any inquires or uncertainities about this page? 🤔🤔<br> Please fill out the form below and we get back to you! 😃</p>
-            <div id="clear"><p>THe text i dont want to see floating</p></div>
+        </div>  <div id="clear"><p>You can find me on the map</p></div>
             
-    <hr>
            
-    <table cellspacing = "60">
-        <tr>
-            <td><table> 
-                <form action="mailto:dewtesfaye76@yahoo.com" enctype="utf-8" method="POST">
+<div class="contactmain">
+    <div class="form">
+    
+
+
+        <form action="mailto:dewtesfaye76@yahoo.com" enctype="utf-8" method="POST">
+                <div>
+                    <div class="form"><label for="fName">First Name : </label></div> <div> <input  type="text" name="fName" id= "fName" pattern="[a-zA-Z]{4,10}"  placeholder="First Name" >
+                    </div>
+                </div>
                 
-                        <tr>
-                            <td><label for="fName">First Name:</label></td>
-                            <td><input  type="text" name="fName" id= "fName" pattern="[a-zA-Z]{4,10}"  placeholder="First Name" ></td>
-                        </tr>
-    
-    
-                        <tr>
-                            <td><label for="sName">Sur Name:</label> </td>
-                        <td><input type="text" name="sName"  id="sName" pattern="[a-zA-Z]{4,10}" required  placeholder="Sir Name" ></td>
-                        </tr>
-    
-                        <tr>
-                            <td><label for="email">Email:</label></td>
-                            <td><input type="email" name= "email" id="email" required  placeholder="instance@gmail.com"></td>
-                        </tr>
-    
-                        <tr>
-                            <td><label for="p_num">Phone Number:</label></td>
-                            <td><input type="int" name = "p_number" id = "p_num" pattern="[0-9]{10}" required placeholder="0912345678" >  </td>
-                            
-                            
-                        </tr>
-    
-                        <tr>
-                            <td><label for="password">Password:</label></td>
-                            <td><input pattern="^[a-zA-Z]\w{3,14}$" type="password" name = "password" id= "password" ></td>
-                            
-                        </tr>
-                         
-                        <tr>
-                            
-                            
-                            <td> <label for="date">Date of Birth: </label> </td>
-                            <td><input type="date" name = "date" id = "date" required placeholder="01/01/2020"></td>
-                        </tr>
-    
-                        <tr>
-                            <td>Where are you from :</td>
-                            <td><select name="country" id="">
-                                <option value="af">Africa</option>
-                                <option value="fe">Far east</option>
-                                <option value="eu">Europe</option>
-                                <option value="na">North America</option>
-                                <option value="sa">South America</option>
-                                </select></td>
-    
-                        </tr>
-    
-                        <tr>
-                            <td>What Do you want to say?</td>
-                            
-                         </tr>
-    
-    
-                         <tr>
-                             <td><textarea name="" id="" cols="30" rows="10"></textarea></td></tr>
-                        </tr>
-    
-                        <tr>
-    
-                            <td><input type="submit" value="Submit"></td>
-                        </tr>
+                <div>
+                   <div class="form" > <label for="sName">Sur Name : </label></div> <div> <input type="text" name="sName"  id="sName" pattern="[a-zA-Z]{4,10}" required  placeholder="Sir Name" >
+                    </div>
+                </div>    
                         
-                       
+                <div>
+                    <div class="form"><label for="email">Email : </label></div> <div><input type="email" name= "email" id="email" required  placeholder="instance@gmail.com">
+                        </div>
+                    </div> 
+                    
+                        <div>
+                        <div class="form"><label for="p_num">Phone Number :</label></div> <div><input type="int" name = "p_number" id = "p_num" pattern="[0-9]{10}" required placeholder="0912345678" >  
+                            </div>
+                        </div>   
+                            <div>
+                                <div class="form"><label for="password">Password : </label></div> <div><input pattern="^[a-zA-Z]\w{3,14}$" type="password" name = "password" id= "password" >
+                                </div>
+                            </div>
+
+                            <div>
+                            <div class="form">  <label for="date">Date of Birth : </label></div> <div><input type="date" name = "date" id = "date" required placeholder="01/01/2020">
+                                    </div>
+                                </div>
+                        
+                                        <div class="form"> Where are you from : </div> <div>
+                                        <select name="couny" id="">
+                                            <option value="af">Africa</option>
+                                            <option value="fe">Far east</option>
+                                            <option value="eu">Europe</option>
+                                            <option value="na">North America</option>
+                                            <option value="sa">South America</option>
+                                            </select>
+                                        </div>   
+                                              <div class="form">  What Do you want to say? </div> <div>
+                                                <textarea name="" id="" cols="30" rows="10"></textarea>
+                                            </div>
+                                                
+                                           <div class="form"> <input type="submit" value="Submit"> </div>
+                                             
+     </form>
+    </div> 
+                        
+    <div class="map">
+        <div class="mapouter"><div class="gmap_canvas"><iframe id="map" width="600" height="500" id="gmap_canvas" 
+            src="https://maps.google.com/maps?q=Addis%20Ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div>
+                <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas
+                  {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+    </div>
+                    
     
                     
     
     
-                    </form>
-               </table></td>
-            <td><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20Ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.emojilib.com">emojilib.com</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
-        </tr>
-    </table>
-    
+                   
+               
+      
+                        </div>    
     
     <h3>Contact us</h3>
     <a href="https://www.facebook.com/" target ="blank">Facebook </a> |

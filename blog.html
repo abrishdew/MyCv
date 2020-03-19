@@ -36,39 +36,31 @@
 <div id="content">
 <!-- 1 post -->
     <section>
-<p class="title">My First Post</p>
+<p class="title">Relative length unit? Or not.</p>
 <article>
+    <p>Various length units are available to describe properties like margin, padding, width, height and font size.
+        They are categorized in to two groups. These are: <br> Absolute and Relative. <br> <br>
+    The major differnece between the two is that Absolute length units are used to express fixed lengths
+    like cm, mm, and px while Relative length units give length with relation 
+    to other length units using rem(relative size to root element), em(relative size to current element)
+    and %(relative to parent element).
+    This makes Relative length units more ideal as they scale themselves 
+    when they are rendered on browsers of different devices ranging from computers to small phones. <br> <br>
+    Although the possibility of page zooming is made available on the 
+            major browsers(responsive browsers) enabiling 
+            the users to get a better text-size that is more big and readable which is much more 
+        convienient, I presume that Relative length units should be used over Absolute length units because
+        setting up the relative size could come in handy at times where we open the page on a smaller device, but if we stick with absolute 
+        then we are forced to use page zoom and the user won't be able to see the 
+        whole width of the content after zooming which would lead to scrolling to the right or to the left,or even scrolling up and down 
+        to see the next portion content. 
+            </p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-    Eveniet eligendi aliquam debitis
-    , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-    voluptatem maxime eum doloribus nemo.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Eveniet eligendi aliquam debitis
-        , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-        voluptatem maxime eum doloribus nemo.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Eveniet eligendi aliquam debitis
-            , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-            voluptatem maxime eum doloribus nemo.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Eveniet eligendi aliquam debitis
-                , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                voluptatem maxime eum doloribus nemo.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Eveniet eligendi aliquam debitis
-                    , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                    voluptatem maxime eum doloribus nemo.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Eveniet eligendi aliquam debitis
-                        , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                        voluptatem maxime eum doloribus nemo.</p>
-                                                            
 
 
 
 </article>
-<p class="date">March 20,2020 : 14:21</p>
+<p class="date">March 19, 2020</p>
 
 
 
@@ -76,39 +68,32 @@
 
 <!-- Second post -->
 <section>
-    <p class="title">My Third Post</p>
+    <p class="title">Default Browser Width explained</p>
     <article>
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Eveniet eligendi aliquam debitis
-        , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-        voluptatem maxime eum doloribus nemo.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Eveniet eligendi aliquam debitis
-            , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-            voluptatem maxime eum doloribus nemo.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Eveniet eligendi aliquam debitis
-                , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                voluptatem maxime eum doloribus nemo.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Eveniet eligendi aliquam debitis
-                    , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                    voluptatem maxime eum doloribus nemo.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Eveniet eligendi aliquam debitis
-                        , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                        voluptatem maxime eum doloribus nemo.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Eveniet eligendi aliquam debitis
-                            , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                            voluptatem maxime eum doloribus nemo.</p>
-                                                                
+        <p>The standard Conversion formula is 16px = 100%, this is equal to 1em.
+            This means that 
+           our default browser is set to 16pxs. <br> <br> Pixel is static, it is an absolute measurment.On the other
+           hand percent and em are relative measurements. Percent depends on its parent font size and EM is relative to the current 
+           size of the element.
+<br><br>
+           The browser interprets units from the cascading stylesheets doing calculation based on this 
+           formula. <br>
+          <em>For example</em> 
+           If you haven't set the font size anywhere on the page,
+            then it is the browser default, which is often 16px.
+            <br> <br> So, by default 1em = 16px, and 2em = 32px. 
+             If you set a font-size of 20px on the body element, then 1em = 20px and 2em = 40px.
+            Note that the value 2 is essentially a multiplier of the current em size.
+           If the font-size you want is 12px, 
+           then you should specify 0.75em (because 12/16 = 0.75). Similarly
+           for 22px, specify 1.375em (22/16).
+       </p>
     
     
     
     </article>
-    <p class="date">March 22,2020 : 14:21</p>
+    <p class="date">March 19, 2020</p>
     
     
     
@@ -116,39 +101,44 @@
 <!-- Third Post -->
 
 <section>
-    <p class="title">My Second Post</p>
+    <p class="title">What's new with CSS3?</p>
     <article>
     
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-        Eveniet eligendi aliquam debitis
-        , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-        voluptatem maxime eum doloribus nemo.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Eveniet eligendi aliquam debitis
-            , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-            voluptatem maxime eum doloribus nemo.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Eveniet eligendi aliquam debitis
-                , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                voluptatem maxime eum doloribus nemo.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                    Eveniet eligendi aliquam debitis
-                    , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                    voluptatem maxime eum doloribus nemo.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Eveniet eligendi aliquam debitis
-                        , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                        voluptatem maxime eum doloribus nemo.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            Eveniet eligendi aliquam debitis
-                            , eum pariatur quod? Assumenda dolores necessitatibus nostrum, 
-                            voluptatem maxime eum doloribus nemo.</p>
+    <p>CSS3 has introduced new features to help style our HTML. Some of which are: <br> <br>
+        Introduction of rounded corners through the border radius property making the css code used 
+        for rounded corners lesser for the developer which can be applied to different elements like text and image.
+        
+        <br>
+            <br>
+        Multiple background images were made available to layer one over the other.
+
+        <br>
+            <br>
+        Linear Gradients and Radial Gradients were also introduced for blending colors in different 
+        angles for styling purposes.
+        
+        <br>
+            <br>
+        The new box shadow and text shadow effects of CSS3 enable a shadow effect to be dropped 
+        around an element through a single line of code which was done by using a repeated image 
+        around the element prior to CSS3.
+            <br>
+
+        <br>
+        Some new selectors were introduced and these new selectors allow users to access DOM elements 
+        through their attributes that eases styling.
+        <br>
+        <br>
+        Others include addition of new colors(RGBA, HSL, HSLA, Gradient colors) and Attribute selectors 
+        where developers can select HTML elements according to their attributes to apply CSS rather than 
+        creating unique ID's only.  
+                                    </p>
                                                                 
     
     
     
     </article>
-    <p class="date">March 21,2020 : 15:21</p>
+    <p class="date">March 19, 2020</p>
     
     
     

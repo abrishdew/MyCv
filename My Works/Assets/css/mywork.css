@@ -58,3 +58,35 @@ div>ul>li>a{
     padding-top: 60px;
 }
 
+.contactmain{
+    display: flex;
+    padding: 25px;
+    margin: 100px 100px;
+    border-bottom: 2px solid black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#map{
+    padding-top: 30px;
+    height:600px;
+    width: 600px;
+}
+.map{
+    margin-left: 175px;
+}
+.form{
+    padding-top: 10px;
+ 
+}
+#Chap{
+    margin-top:45px ;
+    margin-left: 20px;
+    margin-right: 25px;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+#copar{
+    margin-top: 50px;
+    padding-bottom: 250px;
+    border-bottom: solid 1px black;
+}
