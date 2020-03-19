@@ -2,22 +2,59 @@
     padding: 0;
     margin: 0;
 }
-
+body{
+    background-color:wheat;
+    border-top: solid 2px rgb(250, 175, 90);
+    margin: 5px auto;
+}
 header{
     background-color: greenyellow;
-    position: fixed;
+    position: absolute;
     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 2px rgb(250, 175, 90) ;
 }
 
 nav>ul>li{
     display: inline;
-    padding: 5px;
     font-size: 20px;
+    padding:5px 15px ;
+}
+nav>ul>li>a{
+    text-decoration: none;
 }
 
-.ques{
-    display: inline-block;
-    padding: 5px;
-    float: right;
-    margin-top: auto;
+#name{
+    margin-top: 100px;
+    font-size: 50px;
+    font-family: serif;
 }
+img{
+    margin-top:45px ;
+    margin-left: 20px;
+    margin-right: 25px;
+    width: 500px;
+    height: 400px;
+    float: left;
+}
+p{ margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+div>ul>li>a{
+    margin-right: 10px;
+}
+#clear{
+    clear: left;
+    padding: 10px 30px;
+}
+#pp{
+    padding-left: 30px;
+}
+#last{
+    font-family: cursive;
+    padding-top: 60px;
+}
+
