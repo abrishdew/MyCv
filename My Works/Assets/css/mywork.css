@@ -3,17 +3,21 @@
     margin: 0;
 }
 body{
-    background-color:wheat;
-    border-top: solid 2px rgb(250, 175, 90);
-    margin: 5px auto;
+    margin-top: 0px;
+    background-color:#f7f0e487;
+    border-top: solid 2px rgb(107, 106, 106);
+    margin-left: 5px auto;
+    margin-right: 5px auto;
+    margin-bottom: 5px auto;
 }
 header{
-    background-color: greenyellow;
-    position: relative;
+    background-color: rgb(9, 15, 35);
+    position: absolute;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 2px rgb(250, 175, 90) ;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: solid 2px rgb(107, 106, 106) ;
 }
 section
 {  margin-top: 50px;
@@ -39,21 +43,26 @@ article{
 nav>ul>li{
     display: inline;
     font-size: 20px;
-    padding:5px 15px ;
+    padding:20px 15px ;
 }
-nav>ul>li>a{
-    text-decoration: none;
+nav>ul>li>a:hover{
+    color: white;
+    
 }
 
+nav>ul>li>a{
+    text-decoration: none;
+    color: cadetblue;
+}
 #name{
     margin-top: 100px;
     font-size: 50px;
     font-family: serif;
 }
 #LION{
-    margin-top:45px ;
+    margin-top:47px ;
     margin-left: 20px;
-    margin-right: 25px;
+    margin-right: 30px;
     width: 500px;
     height: 400px;
     float: left;
@@ -77,7 +86,8 @@ div>ul>li>a{
 }
 #ques{
     border-bottom: solid 1px black;
-    padding-bottom: 30px;
+    padding-bottom: 27px;
+    font-size: 17px;
 }
 #last{
     font-family: cursive;
@@ -102,70 +112,83 @@ div>ul>li>a{
     padding-top: 10px;
  
 }
-input[type = "submit"]{
+#sub{
     width: 100px;
-    height: 50px;
+    height: 40px;
+    border-radius: 10%;
+    margin: 10px;
 }
 
 #Chap{
     margin-top:45px ;
-    margin-left: 20px;
-    margin-right: 25px;
+    margin-left: 25px;
+    margin-right: 50px;
     width: 300px;
     height: 400px;
     float: left;
 }
 #copar{
-    margin-top: 50px;
-    padding-bottom: 250px;
+    margin-top: 80px;
+    padding-bottom: 322px;
     border-bottom: solid 1px black;
 }
 #cleared{
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
 }
 h3{
     font-size: 25px;
     margin-left: -27px;
     font-weight: lighter;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 h1{
     text-transform: uppercase;
     font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    
     
 }
 #links{
     padding-bottom: 2px;
-    border-bottom: solid 1px black;
+    display: inline;
+    
+   
 }
 #cred{
     padding-bottom: 2px;
-    border-bottom: solid 1px black;
 
 }
 #coparH{
-    margin-top: 50px;
-    padding-bottom: 205px;
+    margin-top: 100px;
+    padding-bottom: 165px;
     border-bottom: solid 1px black;
 }
 #list{
+    margin-left: 100px;
     padding-bottom: 10px;
-    border-bottom: solid 1px black;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #inside{
     display: block;
-    margin-left: 4%;
+    margin-left: 6%;
 }
 #insides{
     display: block;
-    margin-left: 8%;
+    margin-left: 11%;
+}
+#bording{
+    padding-top: 10px;
+    border-bottom: solid 1px black;
 }
 .work{
-    padding: 10px 2px;
-    margin-top: 10px;
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    padding-top: 15px;
+    
     
 }
 #work{
@@ -175,6 +198,8 @@ h1{
 }
 .skill{
     padding: 15px;
+    margin-left: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .heading3{
@@ -183,9 +208,9 @@ h1{
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: solid 1px black;
-    padding-bottom: 5px;
-    padding-top: 20px;
-    padding-left: 30px;
+    padding-bottom: 2px;
+    padding-top: 70px;
+    padding-left: 50px;
     width: 100%;
 }
 
@@ -195,4 +220,25 @@ img{
     float: left;
     margin: 1.6%;
 
+}
+.ico{
+    width:24px;
+    height:24px ;
+}
+#developer{
+    font-size: 15px;
+    font-family: serif;
+}
+
+#ConImag{
+    margin-top:47px ;
+    margin-left: 25px;
+    margin-right: 50px;
+    width: 300px;
+    height: 500px;
+    float: left;
+}
+#clearcont{
+    clear: left;
+    
 }
