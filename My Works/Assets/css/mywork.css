@@ -20,9 +20,9 @@ header{
     border-bottom: solid 2px rgb(107, 106, 106) ;
 }
 section
-{  margin-top: 50px;
+{  
     font-family:Arial, Helvetica, sans-serif;
-    margin: 30px 50px;
+    margin: 70px 50px;
 }
 article{
     line-height: 25px;
@@ -86,7 +86,7 @@ div>ul>li>a{
 }
 #ques{
     border-bottom: solid 1px black;
-    padding-bottom: 27px;
+    padding-bottom: 47px;
     font-size: 17px;
 }
 #last{
@@ -221,13 +221,11 @@ img{
     margin: 1.6%;
 
 }
-.ico{
-    width:24px;
-    height:24px ;
-}
+
 #developer{
     font-size: 15px;
     font-family: serif;
+    padding-bottom: 10px;
 }
 
 #ConImag{
@@ -240,5 +238,23 @@ img{
 }
 #clearcont{
     clear: left;
+    
+}
+#flat{
+    width:24px;
+    height:24px;
+}
+h4{
+    font-size:20px;
+    margin-left: 30px;
+}
+#lastcon{
+    padding-bottom: 65px;
+    border-bottom: solid 1px black;
+}
+#sidImag{
+    float: right 0px;
+    width: 400px;
+    height: 200px;
     
 }
